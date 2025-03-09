@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhi1993_python_hness_1741478737066-pr-trigger-input-set
+  identifier: Build_abhi1993_python_hness_1741478737066prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_abhi1993_python_hness_1741478737066
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
